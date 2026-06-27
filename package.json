@@ -1,0 +1,28 @@
+{
+  "name": "project-eclipse",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Project Eclipse - A cyberpunk action platformer built with Phaser 3",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed"
+  },
+  "keywords": [
+    "game",
+    "phaser",
+    "cyberpunk",
+    "platformer"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "vite": "^8.1.0"
+  }
+}
